@@ -60,7 +60,7 @@ export default function GamePage() {
                         return (
                           <tr key={index}>
                           <td>{player.road}</td>
-                          <td>{player.name}</td>
+                          <td>{player.name === "null"? "-": player.name}</td>
                           <td>{player.data}</td>
                           <td>{
                             classList && classList[player.name]
