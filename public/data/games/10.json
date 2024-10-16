@@ -1,0 +1,47 @@
+[
+    [
+        {"grade": "高一", "name": "男子组 100M 预赛", "time": "09:30", "link": "./games?id=1001"},
+        {"grade": "高一", "name": "女子组 100M 预赛", "time": "09:42", "link": "./games?id=1002"},
+        {"grade": "高二", "name": "男子组 100M 预赛", "time": "09:50", "link": "./games/games.html?id=1003"},
+        {"grade": "高二", "name": "女子组 100M 预赛", "time": "09:58", "link": "./games/games.html?id=1004"},
+        {"grade": "高三", "name": "男子组 100M 预赛", "time": "10:04", "link": "./games/games.html?id=1005"},
+        {"grade": "高三", "name": "女子组 100M 预赛", "time": "10:10", "link": "./games/games.html?id=1006"},
+        {"grade": "高一", "name": "男子组 400M 预决赛", "time": "10:14", "link": "./games/games.html?id=1007"},
+        {"grade": "高一", "name": "女子组 400M 预决赛", "time": "10:34", "link": "./games/games.html?id=1008"},
+        {"grade": "高二", "name": "男子组 400M 预决赛", "time": "10:42", "link": "./games/games.html?id=1009"},
+        {"grade": "高二", "name": "女子组 400M 预决赛", "time": "10:50", "link": "./games/games.html?id=1010"},
+        {"grade": "高三", "name": "男子组 400M 预决赛", "time": "10:54", "link": "./games/games.html?id=1011"},
+        {"grade": "高三", "name": "女子组 400M 预决赛", "time": "11:06", "link": "./games/games.html?id=1012"}
+    ],
+    [
+        {"grade": "高一", "name": "男子组 100M 决赛", "time": "14:30", "link": "./games/games.html?id=1013"},
+        {"grade": "高一", "name": "女子组 100M 决赛", "time": "14:32", "link": "./games/games.html?id=1014"},
+        {"grade": "高二", "name": "男子组 100M 决赛", "time": "14:34", "link": "./games/games.html?id=1015"},
+        {"grade": "高二", "name": "女子组 100M 决赛", "time": "14:36", "link": "./games/games.html?id=1016"},
+        {"grade": "高三", "name": "男子组 100M 决赛", "time": "14:38", "link": "./games/games.html?id=1017"},
+        {"grade": "高三", "name": "女子组 100M 决赛", "time": "14:40", "link": "./games/games.html?id=1018"},
+        {"grade": "高一", "name": "男子组 1500M 预决赛", "time": "14:42", "link": "./games/games.html?id=1019"},
+        {"grade": "高一", "name": "女子组 1500M 预决赛", "time": "14:51", "link": "./games/games.html?id=1020"},
+        {"grade": "高二", "name": "男子组 1500M 预决赛", "time": "15:00", "link": "./games/games.html?id=1021"},
+        {"grade": "高二", "name": "女子组 1500M 预决赛", "time": "15:09", "link": "./games/games.html?id=1022"},
+        {"grade": "高三", "name": "男子组 1500M 预决赛", "time": "15:18", "link": "./games/games.html?id=1023"},
+        {"grade": "高三", "name": "女子组 1500M 预决赛", "time": "15:27", "link": "./games/games.html?id=1024"}
+    ],
+    [
+        {"grade": "高一", "name": "男子组 跳高 预决赛", "time": "09:30", "link": "./games/games.html?id=1113"},
+        {"grade": "高三", "name": "女子组 跳远 预决赛", "time": "09:30", "link": "./games/games.html?id=1114"},
+        {"grade": "高二", "name": "男子组 三级跳远 预决赛", "time": "10:00", "link": "./games/games.html?id=1115"},
+        {"grade": "高三", "name": "男子组 三级跳远 预决赛", "time": "10:30", "link": "./games/games.html?id=1116"},
+        {"grade": "高一", "name": "女子组 铅球 预决赛", "time": "09:30", "link": "./games/games.html?id=1017"}
+    ],
+    [
+        {"grade": "高二", "name": "男子组 跳高 预决赛", "time": "14:30", "link": "./games/games.html?id=1030"},
+        {"grade": "高二", "name": "女子组 跳高 预决赛", "time": "15:20", "link": "./games/games.html?id=1031"},
+        {"grade": "高二", "name": "女子组 铅球 预决赛", "time": "14:30", "link": "./games/games.html?id=1032"},
+        {"grade": "高三", "name": "男子组 铅球 预决赛", "time": "15:20", "link": "./games/games.html?id=1033"},
+        {"grade": "高一", "name": "男子组 跳远 预决赛", "time": "14:30", "link": "./games/games.html?id=1034"},
+        {"grade": "高一", "name": "女子组 跳远 预决赛", "time": "15:10", "link": "./games/games.html?id=1035"},
+        {"grade": "高三", "name": "女子组 三级跳远 预决赛", "time": "15:40", "link": "./games/games.html?id=1036"},
+        {"grade": "高二", "name": "女子组 三级跳远 预决赛", "time": "16:10", "link": "./games/games.html?id=1037"}
+    ]
+]
