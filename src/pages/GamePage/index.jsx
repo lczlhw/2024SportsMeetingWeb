@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 export default function GamePage() {
   const [playerList, setPlayerList] = useState();
+  const [classList, setClassList] = useState();
 
   function useQuery() {
     return new URLSearchParams(useLocation().search);
@@ -17,9 +18,11 @@ export default function GamePage() {
   const handleLoad = async () => {
         let a = (await axios.get(`/data/players/${id}.json`)).data
         setPlayerList(a)
-    
+        let b = (await axios.get('/data/h2c.json')).data
+        setClassList(b)
+
     // let a = await axios.get('/data/games/20.json')
-    console.log("s",a)
+    console.log("s",b)
   }
 
   useEffect(()=>{
@@ -33,8 +36,8 @@ export default function GamePage() {
         <br />
         <br />
         <div id="_title">
-            <span class="txta">{playerList && playerList.grade}</span>
-            <span class="txtb">{playerList && playerList.name}</span>
+            <span class="txta">{playerList && (playerList.name.slice(0, 2) + "年段")}</span>
+            <span class="txtb">{playerList && playerList.name.slice(2,)}</span>
             <Link to={`/?day=${day}`}><button class="home">首页</button></Link>
         </div>
         {
@@ -45,21 +48,23 @@ export default function GamePage() {
                 <table>
                   <thead>
                   <tr>
-                  <th>赛道</th>
-                  <th>姓名</th>
+                  <th>{id.split("")[2] === '1' ? "#" :"赛道"}</th>
+                  <th>{parseInt(id) >= 20019 && parseInt(id) <= 21006? "班级" :"姓名"}</th>
                   <th>数据</th>
                   <th>备注</th>
                   </tr>
                   </thead>
                   <tbody>
                     {
-                      item.map((player)=>{
+                      item.map((player, index)=>{
                         return (
-                          <tr>
+                          <tr key={index}>
                           <td>{player.road}</td>
                           <td>{player.name}</td>
                           <td>{player.data}</td>
-                          <td>{player.class}</td>
+                          <td>{
+                            classList && classList[player.name]
+                          }</td>
                           </tr>
                         )
                       })
