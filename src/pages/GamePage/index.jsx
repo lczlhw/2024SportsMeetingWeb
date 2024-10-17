@@ -50,7 +50,7 @@ export default function GamePage() {
                   <tr>
                   <th>{id.split("")[2] === '1' ? "#" :"赛道"}</th>
                   <th>{parseInt(id) >= 20019 && parseInt(id) <= 21006? "班级" :"姓名"}</th>
-                  <th>数据</th>
+                  <th>成绩</th>
                   <th>备注</th>
                   </tr>
                   </thead>
