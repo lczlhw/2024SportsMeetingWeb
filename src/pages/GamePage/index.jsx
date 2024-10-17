@@ -63,7 +63,7 @@ export default function GamePage() {
                           <td>{player.name === "null"? "-": player.name}</td>
                           <td>{player.data}</td>
                           <td>{
-                            !!player.class? player.class: classList && classList[player.name]
+                            player.class !== '' ? player.class: classList && classList[player.name]
                           }</td>
                           </tr>
                         )
