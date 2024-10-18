@@ -22,7 +22,7 @@ export default function GamePage() {
         setClassList(b)
 
     // let a = await axios.get('/data/games/20.json')
-    console.log("s",b)
+    // console.log("s",b)
   }
 
   useEffect(()=>{
