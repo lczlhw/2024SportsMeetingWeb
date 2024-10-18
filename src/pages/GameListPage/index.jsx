@@ -43,11 +43,11 @@ export default function GameListPage() {
     }, [day])
 
     const handleLoad = async () => {
-        if(day === "2"){
-            let a = (await axios.get('/data/games/20.json')).data
+        if(day === "1"){
+            let a = (await axios.get('/data/games/10.json')).data
             setGameList(a)
         }else{
-            let a = (await axios.get('/data/games/10.json')).data
+            let a = (await axios.get('/data/games/20.json')).data
             setGameList(a)
         }
         // let a = await axios.get('/data/games/20.json')
@@ -79,8 +79,8 @@ export default function GameListPage() {
         <br />
 
         <div id="date">
-            <Link className="txtb" to={day === "2"? "/?day=1": "/?day=2"}><span className="txta zi">{day === "2"? "前一天→": "后一天→"}</span></Link>
-            <span className="txta zi">10月{day==="2"? "18": "17"}日 比赛项目</span>
+            <Link className="txtb" to={day === "1"? "/?day=2": "/?day=1"}><span className="txta zi">{day === "1"? "后一天→": "前一天→"}</span></Link>
+            <span className="txta zi">10月{day==="1"? "17": "18"}日 比赛项目</span>
         </div>
 
         <br />
